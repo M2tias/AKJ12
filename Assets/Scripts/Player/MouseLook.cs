@@ -19,6 +19,7 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
+        if (DialogManager.main.IsDialogOpen) return;
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensitivity;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensitivity;
 
@@ -48,7 +49,7 @@ public class MouseLook : MonoBehaviour
 
             if (hitTarget != null && hitTarget.tag == "Object")
             {
-                Debug.Log("Did Hit");
+                //Debug.Log("Did Hit");
                 InteractiveObject obj = hitTarget.GetComponent<InteractiveObject>();
                 if (obj != null)
                 {

@@ -5,6 +5,10 @@ using UnityEngine;
 public class InteractiveObject : MonoBehaviour
 {
     [SerializeField]
+    List<string> dialog;
+    private int currentDialog = 0;
+
+    [SerializeField]
     GameObject hilightLight;
 
     private float startedHilight;
@@ -13,6 +17,10 @@ public class InteractiveObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // dialog.Enqueue(
+        //     "It's his baseball cap! He must have gone to the cave. I hope he's fine. This might cave in anytime..."
+        // );
+        // dialog.Enqueue("I should go look for him");
         hilightLight.SetActive(false);
     }
 
@@ -22,6 +30,7 @@ public class InteractiveObject : MonoBehaviour
         if (Time.time - startedHilight > hilightDuration)
         {
             hilightLight.SetActive(false);
+            DialogManager.main.SetCurrentObj(null);
         }
     }
 
@@ -29,5 +38,18 @@ public class InteractiveObject : MonoBehaviour
     {
         hilightLight.SetActive(true);
         startedHilight = Time.time;
+        DialogManager.main.SetCurrentObj(this);
+    }
+
+    public string GetNextDialog()
+    {
+        string dialogText = currentDialog < dialog.Count ? dialog[currentDialog] : null;
+        currentDialog++;
+        return dialogText;
+    }
+
+    public void RestartDialog()
+    {
+        currentDialog = 0;
     }
 }
