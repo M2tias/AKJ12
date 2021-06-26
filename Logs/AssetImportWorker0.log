@@ -2927,3 +2927,177 @@ System memory in use after: 173.7 MB.
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5657.
 Total: 6.025300 ms (FindLiveObjects: 0.599400 ms CreateObjectMapping: 0.411900 ms MarkObjects: 3.446500 ms  DeleteObjects: 1.566700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 6133.770325 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82663478cc7b6c729a0b488ea3347d08') in 0.545826 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.8 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5696.
+Total: 6.379800 ms (FindLiveObjects: 0.598300 ms CreateObjectMapping: 0.482700 ms MarkObjects: 3.737800 ms  DeleteObjects: 1.559300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.630118 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f0017ea9f172cd165dda76b5d3fa99') in 0.243744 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.9 MB.
+System memory in use after: 173.9 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5735.
+Total: 7.789300 ms (FindLiveObjects: 0.747800 ms CreateObjectMapping: 0.519300 ms MarkObjects: 4.299700 ms  DeleteObjects: 2.221300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.320907 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228992855861f1dbf8e5672d399c9597') in 0.219304 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.0 MB.
+System memory in use after: 173.9 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5774.
+Total: 6.848200 ms (FindLiveObjects: 0.591700 ms CreateObjectMapping: 0.508100 ms MarkObjects: 4.140400 ms  DeleteObjects: 1.606600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.299763 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ae53c2822a960952f61122d9b8d5bc') in 0.221936 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 174.0 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5813.
+Total: 6.206500 ms (FindLiveObjects: 0.683400 ms CreateObjectMapping: 0.450700 ms MarkObjects: 3.565000 ms  DeleteObjects: 1.505900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.261971 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f95ced3969f22f3c282286f6922d68') in 0.215254 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5852.
+Total: 5.954100 ms (FindLiveObjects: 0.610900 ms CreateObjectMapping: 0.417700 ms MarkObjects: 3.449300 ms  DeleteObjects: 1.475200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.523181 seconds.
+  path: Assets/Models/ravine_with_hole.blend
+  artifactKey: Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ravine_with_hole.blend using Guid(340183d4f7512564c90a266d8aa75999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc647b8dacf060e10347bee5d89154d0') in 0.221987 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 5891.
+Total: 5.854600 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.413100 ms MarkObjects: 3.382500 ms  DeleteObjects: 1.474000 ms)
+
