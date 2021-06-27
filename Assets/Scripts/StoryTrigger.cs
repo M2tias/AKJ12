@@ -25,12 +25,18 @@ public class StoryTrigger : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             DialogManager.main.SetCurrentStoryTrigger(this);
+            SwapObjects swapper = gameObject.GetComponent<SwapObjects>();
+            Debug.Log(swapper);
+            if (swapper != null) swapper.SwapThings();
         }
     }
 
     public void PlayerHit()
     {
         DialogManager.main.SetCurrentStoryTrigger(this);
+        SwapObjects swapper = gameObject.GetComponent<SwapObjects>();
+        Debug.Log(swapper);
+        if (swapper != null) swapper.SwapThings();
     }
 
     public string GetNextDialog()

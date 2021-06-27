@@ -15,6 +15,7 @@ public class MouseLook : MonoBehaviour
     {
         player = transform.parent;
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -47,9 +48,9 @@ public class MouseLook : MonoBehaviour
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             GameObject hitTarget = hit.collider.gameObject;
 
-            if (hitTarget != null && hitTarget.tag == "Object")
+            if (hitTarget != null && hitTarget.tag == "Object" && hit.distance < 5)
             {
-                //Debug.Log("Did Hit");
+                Debug.Log("Did Hit");
                 InteractiveObject obj = hitTarget.GetComponent<InteractiveObject>();
                 if (obj != null)
                 {

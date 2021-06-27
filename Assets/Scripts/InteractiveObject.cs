@@ -27,10 +27,14 @@ public class InteractiveObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time - startedHilight > hilightDuration)
+        if (Time.time - startedHilight > hilightDuration && DialogManager.main.GetCurrentObj() == this)
         {
             hilightLight.SetActive(false);
             DialogManager.main.SetCurrentObj(null);
+        }
+        else if (DialogManager.main.GetCurrentObj() != this)
+        {
+            hilightLight.SetActive(false);
         }
     }
 
@@ -45,6 +49,13 @@ public class InteractiveObject : MonoBehaviour
     {
         string dialogText = currentDialog < dialog.Count ? dialog[currentDialog] : null;
         currentDialog++;
+
+        //dialog over, swap things if necessary
+        if (dialogText == null)
+        {
+            SwapObjects swapper = gameObject.GetComponent<SwapObjects>();
+            if (swapper != null) swapper.SwapThings();
+        }
         return dialogText;
     }
 

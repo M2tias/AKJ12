@@ -36,6 +36,13 @@ public class DialogManager : MonoBehaviour
     void Update()
     {
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
+        Debug.Log(storyObj != null ? "story != null" : (obj == null ? "obj = null" : "obj != null"));
         if (storyObj != null)
         {
             if (readingStory == false)
@@ -46,6 +53,7 @@ public class DialogManager : MonoBehaviour
                 if (text != null)
                 {
                     DialogCanvas.gameObject.SetActive(true);
+                    text = text.Replace("\\n", "\n");
                     dialogText.text = text;
                     IsDialogOpen = true;
                     readingStory = true;
@@ -71,6 +79,7 @@ public class DialogManager : MonoBehaviour
 
                 if (text != null)
                 {
+                    text = text.Replace("\\n", "\n");
                     dialogText.text = text;
                 }
                 else
@@ -93,8 +102,14 @@ public class DialogManager : MonoBehaviour
         }
     }
 
+    public InteractiveObject GetCurrentObj()
+    {
+        return this.obj;
+    }
+
     public void SetCurrentObj(InteractiveObject obj)
     {
+        Debug.Log("Mooi");
         this.obj = obj;
     }
 
