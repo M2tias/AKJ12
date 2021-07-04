@@ -4354,31 +4354,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.07041987
+      value: -0.07041824
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.10664749
+      value: -0.10664622
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.23078395
+      value: -0.23078442
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.62932044
+      value: 0.70638067
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7771459
+      value: 0.7078323
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4386,7 +4386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 102
+      value: 90.118
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be214a70cec4b2a45b4b47eeac0cab1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -7888,15 +7888,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966924161}
-  m_LocalRotation: {x: -0, y: -0.044837505, z: -0, w: 0.99899435}
-  m_LocalPosition: {x: 27.73186, y: -18.882, z: 3.5406013}
+  m_LocalRotation: {x: -0, y: -0.039629962, z: -0, w: 0.9992145}
+  m_LocalPosition: {x: 27.733091, y: -18.882, z: 3.5403566}
   m_LocalScale: {x: 0.4615, y: 0.4615, z: 0.4615}
   m_Children:
   - {fileID: 1537414261}
   - {fileID: 1927898793}
   m_Father: {fileID: 2136963539}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -5.14, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -4.542, z: 0}
 --- !u!65 &966924163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12360,6 +12360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1489464391}
+  - component: {fileID: 1489464392}
   m_Layer: 6
   m_Name: AltarTheSecond
   m_TagString: Object
@@ -12374,15 +12375,28 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489464390}
-  m_LocalRotation: {x: -0, y: -0.15586582, z: -0, w: 0.98777825}
-  m_LocalPosition: {x: 27.707296, y: -18.882, z: 3.5420508}
+  m_LocalRotation: {x: -0, y: -0.0466526, z: -0, w: 0.9989112}
+  m_LocalPosition: {x: 27.733965, y: -18.882, z: 3.5434833}
   m_LocalScale: {x: 0.4615, y: 0.4615, z: 0.4615}
   m_Children:
   - {fileID: 729049694}
   - {fileID: 310250932}
   m_Father: {fileID: 2136963539}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: -17.934, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -5.348, z: 0}
+--- !u!65 &1489464392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489464390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.504154, y: 3.3089957, z: 2.3359876}
+  m_Center: {x: -0.037712507, y: -0.29631272, z: -0.26235527}
 --- !u!1 &1505031927
 GameObject:
   m_ObjectHideFlags: 0
