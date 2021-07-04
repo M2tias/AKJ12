@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1.55
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.13296545, g: 0.19145328, b: 0.33962262, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
   m_HaloStrength: 0.5
@@ -2997,12 +2997,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "As I get closer to the edge, I realize there\u2019s a dragging sound coming
-    from somewhere in the darkness below.. \\n My imagination runs wild and the sounds
+    from somewhere in the darkness below.. \\nMy imagination runs wild and the sounds
     start to sound more and more like heavy dragging feet slowly trudging forward
     in the dark.. "
-  - "A sense of dread comes over me and I can\u2019t seem to move. \\n It\u2019s
-    not until the sound becomes more distant that I regain my courage. "
-  - "\u201CArryn.. Where are you..\u201D I whisper under my breath. \\n I need to
+  - "A sense of dread comes over me and I can\u2019t seem to move. \\nIt\u2019s not
+    until the sound becomes more distant that I regain my courage. "
+  - "\u201CArryn.. Where are you..\u201D I whisper under my breath. \\nI need to
     find a way out. "
 --- !u!54 &215709751
 Rigidbody:
@@ -4467,7 +4467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274242145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalPosition: {x: 0, y: -0.178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1687258585}
@@ -6176,7 +6176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "There\u2019s the jacket but no sign of my brother! Part of me is relieved, but
-    where could he be? \\n At least the way is clear now. "
+    where could he be? \\nAt least the way is clear now. "
 --- !u!54 &421433018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7160,8 +7160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "That\u2019s Arryn\u2019s phone! He must have gone this way. \\n But how did
-    he drop his phone? "
+  - "That\u2019s Arryn\u2019s phone! He must have gone this way. \\nBut how did he
+    drop his phone? "
   hilightLight: {fileID: 1474912320}
 --- !u!65 &517033273
 BoxCollider:
@@ -7422,8 +7422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'This is definitely a pedestal. \n When looking closer, I notice an area in the
-    middle is clear of any dust.  \n Was this for something?  What could that have
+  - 'This is definitely a pedestal. \nWhen looking closer, I notice an area in the
+    middle is clear of any dust.  \nWas this for something?  What could that have
     been? And where is it now? '
   hilightLight: {fileID: 721442913}
 --- !u!1001 &540546401
@@ -8001,7 +8001,7 @@ MonoBehaviour:
   - "Suddenly, the earth shakes heavily again. There\u2019s some rumbling sounds
     coming from both ahead and behind me. All I can think of is that jacket, hoping
     that my brother is still alive. I cower next to the cave wall and wait for it
-    all to stop. \\n After everything\u2019s stopped shaking, I stand up and find
+    all to stop. \\nAfter everything\u2019s stopped shaking, I stand up and find
     my bearings again. "
 --- !u!54 &560369396
 Rigidbody:
@@ -9553,7 +9553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - 'Rumbling sounds coming from the corridors bring me to a halt. For a second I
-    fear the worst, but the ground is relatively still. No quaking. \n What could
+    fear the worst, but the ground is relatively still. No quaking. \nWhat could
     that have been? '
 --- !u!54 &695149084
 Rigidbody:
@@ -9631,19 +9631,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "Walking closer to the exit, I realize that there\u2019s a figure laying down
-    there in the moonlight. \\n \u201CArryn!\u201D "
+    there in the moonlight. \\n\u201CArryn!\u201D "
   - "As I rush closer, I realize he\u2019s been bleeding from a cut in his hand,
-    unconscious. \\n I notice a familiar looking idol next to him, stained with blood.
+    unconscious. \\nI notice a familiar looking idol next to him, stained with blood.
     It looked a bit like those drawings inside.. "
-  - "\u201CArryn, please wake up..\u201D \\n I try to gently shake my brother awake,
+  - "\u201CArryn, please wake up..\u201D \\nI try to gently shake my brother awake,
     my eyes welling up with tears mixed with both worry and relief of finding him. "
-  - "\u201CNeela..?\u201D \\n My brother slowly opens his eyes to look at me before
-    bursting into tears. \\n \u201CEverything\u2019s alright Arryn, everything\u2019s
-    alright..\u201D I hug him, rocking back and forth with him. "
-  - "\u201CLet\u2019s get home, ok?\u201D \\n I help him up and take one last  look
-    back into the dark cavern where we came from. \\n \u201CCome, let\u2019s get
-    home.\u201D "
-  - THANK YOU FOR PLAYING. THE END.
+  - "\u201CNeela..?\u201D \\nMy brother slowly opens his eyes to look at me before
+    bursting into tears. \\n\u201CEverything\u2019s alright Arryn, everything\u2019s
+    alright..\u201D I hug him, rocking him back and forth.  "
+  - "\u201CLet\u2019s get home, ok?\u201D \\nI help him up and take one last look
+    back into the dark cavern where we came from. \\n\u201CCome, let\u2019s get home.\u201D "
+  - THE END. \nThank you for playing!
 --- !u!54 &695752232
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10705,7 +10704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "Oh I should have known this place is unstable.. \\n Seems there\u2019s no way
+  - "Oh I should have known this place is unstable.. \\nSeems there\u2019s no way
     back this way. "
 --- !u!54 &799631833
 Rigidbody:
@@ -12602,7 +12601,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 911208985}
-  - component: {fileID: 911208987}
   - component: {fileID: 911208986}
   m_Layer: 6
   m_Name: JacketNoInteraction
@@ -12642,25 +12640,6 @@ MonoBehaviour:
   HideThese: []
   ShowThese:
   - {fileID: 560369392}
---- !u!114 &911208987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911208984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cba3d258aac52b44db53f40a3daf76f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialog:
-  - "My eyes grow wide at the sight of my brother's jacket underneath the rocks.
-    \\n\u201CArryn?! Are you there? Are you ok?!\u201D\\n No answer. "
-  - "Desperately, I try moving the rocks but they\u2019re way too heavy. \\n \u201CArryn,
-    hold on! I\u2019ll go get help!\u201D \\n Scrambling to my feet, I start making
-    my way back to the entrance. "
-  hilightLight: {fileID: 1592625810}
 --- !u!4 &911217849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5780bd98028468d41bcb36e740836697, type: 3}
@@ -12808,19 +12787,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "I had woken to a rumble, an earthquake. The strongest I had ever experienced.
-    After my initial shock I remembered that my little brother had gone out to play
+    After my initial shock, I remembered that my little brother had gone out to play
     in the nearby woods before I had dozed off and he still wasn\u2019t home. \\nHe
     always has his phone with him, but when I tried to call it didn\u2019t connect."
   - 'It was already late, too late for my brother to still be out in the woods. So
     I grabbed my flashlight and went looking. '
-  - 'After passing through the woods, slowly climbing to the hill my brother liked
+  - After passing through the woods, slowly climbing to the hill my brother liked
     to frequent, I noticed something was off. As I drew closer, I came to the edge
-    of a ravine. It was as if the ground had been split open. Probably by the earthquake. 
-    \n It was deep, but looking down in the moonlight, I saw something that looked
+    of a ravine. It was as if the ground had been split open. Probably by the earthquake.
+  - 'It was deep, but looking down in the moonlight, I saw something that looked
     like it could be my brother laying down in the bottom. I called out his name
     to no answer. '
-  - 'Fearing the worst, I descended the hill and found my way into the ravine.  \n
-    I need to find my brother. '
+  - 'Fearing the worst, I descended the hill and found my way into the ravine.  \nI
+    need to find my brother. '
 --- !u!54 &917376090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13560,7 +13539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'That looks like an altar..  \n Is that a knife? '
+  - 'That looks like an altar..  \nIs that a knife? '
   hilightLight: {fileID: 450122898}
 --- !u!1001 &970245021
 PrefabInstance:
@@ -14006,9 +13985,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "My eyes grow wide at the sight of my brother's jacket underneath the rocks.
-    \\n\u201CArryn?! Are you there? Are you ok?!\u201D\\n No answer. "
-  - "Desperately, I try moving the rocks but they\u2019re way too heavy. \\n \u201CArryn,
-    hold on! I\u2019ll go get help!\u201D \\n Scrambling to my feet, I start making
+    \\n\u201CArryn?! Are you there? Are you ok?!\u201D \\nNo answer. "
+  - "Desperately, I try moving the rocks but they\u2019re way too heavy. \\n\u201CArryn,
+    hold on! I\u2019ll go get help!\u201D \\nScrambling to my feet, I start making
     my way back to the entrance. "
   hilightLight: {fileID: 2147252634}
 --- !u!65 &995913899
@@ -16062,8 +16041,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'These must be ancient.  \n The intricate linings of the pillars mesmerize me
-    for a moment, until I return back to reality.  \n Arryn, where are you? '
+  - 'These must be ancient.  \nThe intricate linings of the pillars mesmerize me
+    for a moment, until I return back to reality.  \nArryn, where are you? '
 --- !u!54 &1159110879
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16604,8 +16583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "Suddenly, I hear footsteps some ways ahead of me. \\n \u201CArryn?! Are you
-    there?!\u201D \\n The sound of my voice echoes through the corridor, but no answer.. "
+  - "Suddenly, I hear footsteps some ways ahead of me. \\n\u201CArryn?! Are you there?!\u201D
+    \\nThe sound of my voice echoes through the corridor, but no answer.. "
   - The footsteps grow fainter.. It must be Arryn, surely.. But why is he not answering?
 --- !u!54 &1227427305
 Rigidbody:
@@ -18967,7 +18946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - "I let out a sigh of relief realizing that the \u2018body\u2019 I saw from the
-    ravine edge was just some rocks. But that's my brother's cap!"
+    ravine edge was just some rocks. But where is my brother?"
   hilightLight: {fileID: 990617327}
 --- !u!1 &1386066909
 GameObject:
@@ -19183,7 +19162,7 @@ MonoBehaviour:
   dialog:
   - "I headed inside the cave. Draft of cold, dank air wafted from the inside. \\n
     After calling out to my brother I\u2019m only met by my echo and then the silence
-    of the cave.  \\n I guess I have no choice but to head in deeper. "
+    of the cave.  \\nI guess I have no choice but to head in deeper. "
 --- !u!65 &1389261817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19259,7 +19238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'Finding no other exit, I go back into the huge open cavern.  \n What could that
+  - 'Finding no other exit, I go back into the huge open cavern.  \nWhat could that
     rumbling have been? '
 --- !u!54 &1393039727
 Rigidbody:
@@ -19337,7 +19316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
   - " As I approach the entryway, my light hits something that looks like pillars..
-    \\n It\u2019s like I\u2019ve arrived into a grand hall. "
+    \\nIt\u2019s like I\u2019ve arrived into a grand hall. "
 --- !u!54 &1404107249
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21624,8 +21603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - 'Where did these stairs come from? \n Cautiously, I first try the step a bit
-    with my foot to see if it holds.  '
+  - 'Where did these stairs come from? \nCautiously, I first try the step a bit with
+    my foot to see if it holds.  '
   - It does.
 --- !u!54 &1524369746
 Rigidbody:
@@ -22735,8 +22714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "Suddenly, I hear footsteps some ways ahead of me. \\n \u201CArryn?! Are you
-    there?!\u201D \\n The sound of my voice echoes through the corridor, but no answer.. "
+  - "Suddenly, I hear footsteps some ways ahead of me. \\n\u201CArryn?! Are you there?!\u201D
+    \\nThe sound of my voice echoes through the corridor, but no answer.. "
   - The footsteps grow fainter.. It must be Arryn, surely.. But why is he not answering?
 --- !u!54 &1607415389
 Rigidbody:
@@ -25036,8 +25015,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "Something seems to have closed in and there\u2019s no way back this way.. \\n
-    Am I trapped? There must be another way.. "
+  - "Something seems to have closed in and there\u2019s no way back this way.. \\nAm
+    I trapped? There must be another way.."
 --- !u!54 &1739882056
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27242,7 +27221,7 @@ MonoBehaviour:
   dialog:
   - "Walking forward one step at a time, I finally reach the end of the staircase
     to find another corridor. I hear a faint echo of footsteps coming from inside.
-    \\n \u201CArryn?\u201D"
+    \\n\u201CArryn?\u201D"
   - I get no answer.
 --- !u!54 &1959159881
 Rigidbody:
@@ -29117,7 +29096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110489419}
   m_LocalRotation: {x: -0, y: -0.8803746, z: -0, w: 0.47427896}
-  m_LocalPosition: {x: 3.24, y: -10.251, z: 51.34}
+  m_LocalPosition: {x: 4.13, y: -10.251, z: 48.88}
   m_LocalScale: {x: 0.97, y: 2.14, z: 5.45}
   m_Children: []
   m_Father: {fileID: 1272386820}
