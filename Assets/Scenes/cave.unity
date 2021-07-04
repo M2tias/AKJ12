@@ -12767,7 +12767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917376087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.96, y: -0.77, z: -2.21}
+  m_LocalPosition: {x: -22.55, y: -0.77, z: -2.21}
   m_LocalScale: {x: 0.97, y: 2.14, z: 5.45}
   m_Children: []
   m_Father: {fileID: 1272386820}
@@ -12827,7 +12827,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10.71, y: 1.58, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &919586565
 PrefabInstance:
@@ -19160,9 +19160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - "I headed inside the cave. Draft of cold, dank air wafted from the inside. \\n
-    After calling out to my brother I\u2019m only met by my echo and then the silence
-    of the cave.  \\nI guess I have no choice but to head in deeper. "
+  - "I headed inside the cave. Draft of cold, dank air wafted from the inside.\\nAfter
+    calling out to my brother I\u2019m only met by my echo and then the silence of
+    the cave.  \\nI guess I have no choice but to head in deeper. "
 --- !u!65 &1389261817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19315,7 +19315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-  - " As I approach the entryway, my light hits something that looks like pillars..
+  - "As I approach the entryway, my light hits something that looks like pillars..
     \\nIt\u2019s like I\u2019ve arrived into a grand hall. "
 --- !u!54 &1404107249
 Rigidbody:
